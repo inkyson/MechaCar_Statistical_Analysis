@@ -25,6 +25,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 1. Does the current manufacturing data meet this design specification for all manufacturing lots in total? Why or why not?
 
     Total Summary:
+
     ![total_summary](Images/total_summary.png)
 
     - The manufacturing data meets the design specification for all manufacturing lots in total as the variance is at 62.29, which is below 100 PSI specification.
@@ -32,6 +33,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 2. Does the current manufacturing data meet this design specification for each lot individually? Why or why not?
 
     Manufacturing Lot Summary:
+
     ![lot_summary](Images/lot_summary.png)
 
     - Across individual lots, Lot 1 and Lot 2 are both within the variance dictated in the design specifications.  Additionally they have the same mean and median.
@@ -42,6 +44,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 1. Is the PSI across all manufacturing lots statistically different from the population mean of 1,500 pounds per square inch?
     
     Total Summary:
+
     ![all_lots](Images/all_lots.png)
 
     - Total lots PSI values are not statistically different from the population mean of 1,500 as the p-values are higher than the significance level at 0.06.
@@ -49,12 +52,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 2. Is the PSI for each manufacturing lots statistically different from the population mean of 1,500 pounds per square inch?
 
     Lot 1 Summary:
+
     ![lot1](Images/lot1.png)
 
     Lot 2 Summary:
+
     ![lot2](Images/lot2.png)
 
     Lot 3 Summary:
+    
     ![lot3](Images/lot3.png)
 
     - Lot 1 and Lot 2 PSI values are not statistically different from the population mean of 1,500 PSI as the p-values are higher than the significance level and has the same mean at 1,500.
